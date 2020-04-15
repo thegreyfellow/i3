@@ -191,9 +191,12 @@ for_window [class=".*"] border pixel 0
 
 # gaps
 gaps inner 20
+gaps outer 0
 
 # rounded corners
-border_radius 5 i3bar
+border_radius 5
+
+# i3bar
 bar {
   status_command i3status
   position top
